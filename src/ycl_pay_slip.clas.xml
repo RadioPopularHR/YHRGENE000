@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YCL_PAY_SLIP</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Pay slip</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Pay slip</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>APOLICE_SEGURO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº da apólice de seguro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>BANK_NAME</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nome da instituição financeira</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>BASE_IRS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CENTRO_CUSTO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Descrição</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMPRESA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Denominação da firma ou empresa</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMP_ADDRESS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrut.de transferência p/módulo funç.p/edição de endereços</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMP_CATEGORIA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Categoria profissional</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMP_FIRE_DATE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Fim da validade</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMP_HIRE_DATE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo do tipo DATS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMP_NIB</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Número de indentificação bancária</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMP_NIF</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº de identificação fiscal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMP_SSNUM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº Beneficiário SS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMA_PAGAMENTO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Explicação da forma de pagamento no idioma do país</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HRDATA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>umComprovante de remuneração (válido p/todos os países)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INIT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Initialization</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSURANCE_COMPANY_TEXT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Texto descritivo da companhia de seguros</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IRS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IRS_RETIDO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IRS_RETIDO_ACUMULADO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOEDA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código da moeda</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MONTANTE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MONTANTE_BRUTO_IRS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MONTANTE_BRUTO_TOTAL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NIF_EMPRESA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Valor patrimonial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NUM_PESSOAL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº pessoal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PAYROLL_AREA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Área de processamento da folha de pagamento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PAYROLL_AREA_TEXT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Área de processamento da folha de pagamento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RUBRICA_97</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TOTAL_ABONOS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TOTAL_DESCONTOS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cálculo das folhas de pagamento: montante</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>PS_HRDATA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>umComprovante de remuneração (válido p/todos os países)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NIB</CMPNAME>
+     <SCONAME>E_NIB</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Número de identificação bancária</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NIB</CMPNAME>
+     <SCONAME>I_BANK_ACCOUNT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº conta bancária</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NIB</CMPNAME>
+     <SCONAME>I_BANK_CONTROL_KEY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Chave de controle de bancos</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NIB</CMPNAME>
+     <SCONAME>I_BANK_COUNTRY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código do país do banco</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NIB</CMPNAME>
+     <SCONAME>I_BANK_NUMBER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Chave do banco</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
